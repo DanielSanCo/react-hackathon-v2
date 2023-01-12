@@ -1,0 +1,9 @@
+.footer {
+    height: 30vh; min-width: 100vw;
+    background-color: black;
+    margin-top: 200vh;
+    position: absolute;
+    border-top: 1px solid white;
+    z-index: 4;
+    color: white;
+}

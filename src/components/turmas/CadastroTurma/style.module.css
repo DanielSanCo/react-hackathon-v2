@@ -1,0 +1,41 @@
+.container {
+    width: 100vw; height: 100vh;
+    display: flex; justify-content: center; align-items: center;
+    position: fixed;
+}
+.form {
+    height: 70vh;
+    width: 400px;
+    background-color: white;
+    position: absolute;
+    z-index: 6;
+    box-shadow: 1px 1px 5px black;
+    display: flex; justify-content: center; align-items: center; flex-direction: column;
+}
+
+
+.formInputArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 350px; width: 80%;
+}
+.line {
+    width: 90%; height: 1px;
+    background: linear-gradient(90deg, rgba(0,0,0,0), black, rgba(0,0,0,0));
+    margin-bottom: 15px; margin-top: -15px;
+}
+.formInputArea p {
+    margin-bottom: -5px;
+    margin-top: -5px;
+    width: 200px;
+    font-weight: bold;
+}
+.formInputArea input {
+  margin: 10px; width: 200px;
+  height: 30px;
+  border: 1px solid black;
+  box-shadow: 1px 1px 3px black;
+  border-radius: 5px;
+}
